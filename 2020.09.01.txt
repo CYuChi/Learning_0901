@@ -1,0 +1,42 @@
+*** Web-based:以瀏覽器作為圖形使用者介面(GUI，Graphic User Interface)使用Internet上的服務與功能，俗稱雲服務、雲端服務、Cloud Service。
+
+*** Web-based GUI 使用HTML、CSS產生靜態頁面，動態互動與特效則透過Javascript達成。
+
+*** 瀏覽器看得懂HTML、CSS、Jacascript。Front-end工程師要熟悉這3種語法，永遠問：這個語法對Browser來說會有何作用?
+
+***<!Doctype html> 對Browser來說會有何作用?
+--跟Browser說這是HTML5版本的tag語法
+
+***<html></html> 標示HTML document 的開始與結束
+
+***<head></head> 描述HTML document 文件的區塊，標頭區
+
+***<body></body> HTML document 要呈現在窗格的內容之語法寫在這個區塊。
+
+***<a herf="http://.........">文字</a>    超連結  
+>> href = "http://www.nkust.edu.tw/" 這是省略Homepage 檔案名稱，每個web server 都有預設的Homepage檔案名稱，一般會是 index.??? ，例如 index.php . index.html . index.htm . index.aspx
+
+***<img> src="test.jpg"</img>
+
+	<img src="test.jpg" />
+	將圖Test.jpg顯示在窗格上
+
+***<form></form> 表單
+
+***<div class="myDiv">
+		<h2>This is a heading in a div element</h2>
+		<p>This is some text in a div element. </p>
+	</div>
+->會有一個 .myDiv{...}的樣式宣告在<style>與</style>之間，
+例如：
+<head><style>
+.myDiv{
+	border: 5px outset red;
+	background-color: lightblue;
+	text-align: center;
+}
+</style></head>
+->這是樣式類別定義與套用的方法之一，叫
+
+--<div>Content</div>
+*** HTML tag(也叫 element)可呈現
